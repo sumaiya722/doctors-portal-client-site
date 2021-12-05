@@ -28,7 +28,7 @@ const Navigation = () => {
                         Doctors Portal
                     </Typography>
                     <Link to="/appointment">
-                        <Button color="inherit">Appointment</Button>
+                        <Button style={{textDecoration:'none',color:'white'}} color="inherit">Appointment</Button>
                     </Link>
                     {user?.email ?
                         <Box>
