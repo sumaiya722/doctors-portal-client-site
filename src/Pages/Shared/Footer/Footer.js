@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       
       <p className="text-center m-0 py-3 copyright">
-        Copyright © All Reserved by Drone Explore company in
+        Copyright © All Reserved by Dentist Service in
         2021
       </p>
     </>
