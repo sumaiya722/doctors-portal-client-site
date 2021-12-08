@@ -14,6 +14,7 @@ import Register from './Pages/LogIn/Register/Register.js';
 import AuthProvider from './Contexts/AuthProvider/AuthProvider.js';
 import PrivateRoute from './Pages/LogIn/PrivateRoute/PrivateRoute.js';
 import Dashboard from './Pages/Dashboard/Dashboard/Dashboard.js';
+import Footer from './Pages/Shared/Footer/Footer.js';
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-        </Switch>
+          </Switch>
+          <Footer/>
       </Router>
       </AuthProvider>
     </div>
